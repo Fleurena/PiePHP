@@ -1,0 +1,130 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #f3f3f3;
+}
+
+header{
+	background-color: #1d1212;
+}
+
+nav{
+	margin: 0 auto;
+	height: 76px;
+	display: flex;
+}
+
+ul{
+	display: flex;
+	margin: 0 auto;
+	width: 635px;
+	padding-top: 9px;
+}
+
+li{
+	margin: 20px 20px;
+	list-style: none;
+}
+
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: orange;
+	text-transform: uppercase;
+}
+
+a:hover{
+	background-color: white;
+}
+
+/* CONTAINER */
+
+.container{
+	margin-top: 0px;
+}
+
+
+/* FORM */
+
+form{
+	margin: 0 auto;
+	width: 600px;
+}
+
+label{
+	width: 200px;
+	margin: 10px;
+}
+
+input{
+	width: 560px;
+	height: 25px;
+	margin: 10px;
+}
+
+#submit, #submit_login, #submit_password, #submit_delete{
+	height: 40px;
+	background-color: black;
+	color: orange;
+	border:none;
+	width: 564px;
+}
+
+#submit:hover, #submit_login:hover, #submit_password:hover, #submit_delete:hover{
+	background-color: orange;
+	color: black;
+}
+
+h1{
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	color: black;
+}
+
+h2{
+	margin-left: 8px;
+}
+
+/* PROFIL */
+
+.logo{
+	width: 100%;
+}
+
+.a_logo{
+	width: 16%;
+}
+
+.a_logo:hover{
+	background-color: initial;
+}
+
+.container_block{
+	width: auto;
+	margin: 0 auto;
+}
+
+.container_flex{
+	display: flex;
+}
+
+.block_1{
+	margin: 0 auto;
+}
+
+.block_2{
+	margin: 0 auto;
+}
+
+#title_profil{
+	text-align: inherit;
+}
+
